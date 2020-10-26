@@ -18,15 +18,23 @@
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
+    "bootstrap": "^4.5.2",
+    "headroom.js": "^0.11.0",
+    "moment": "^2.29.1",
     "netlify-cli": "^2.59.1",
+    "nouislider": "^14.6.2",
     "react": "^16.9.0",
+    "react-datetime": "^3.0.4",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
     "react-static": "^7.2.0",
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sass": "^7.3.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-source-filesystem": "^7.2.0",
-    "react-static-plugin-typescript": "^7.2.0"
+    "react-static-plugin-typescript": "^7.2.0",
+    "reactstrap": "^8.6.0"
   },
   "devDependencies": {
     "@types/node": "^12.7.2",

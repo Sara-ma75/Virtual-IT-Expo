@@ -7,6 +7,26 @@ export default {
   entry: path.join(__dirname, `src`, `index.tsx`),
   getRoutes: () => [
     {
+      template: `src/pages/index.js`,
+      path: `/`,
+    },
+    {
+      template: `src/pages/examples/Landing`,
+      path: `/landing-page`,
+    },
+    {
+      template: `src/pages/examples/Login`,
+      path: `/login-page`,
+    },
+    {
+      template: `src/pages/examples/Profile`,
+      path: `/profile-page`,
+    },
+    {
+      template: `src/pages/examples/Register`,
+      path: `/register-page`,
+    },
+    {
       children: posts.map((post) => ({
         getData: () => ({
           post,
